@@ -29,6 +29,12 @@ public class Arrayobjects {
             System.out.println(students[i].rollno+":" +students[i].name);
 
         }
+
+        //enhanced for loop
+
+        for(Student stud : students){
+            System.out.println(stud.name+ ": "+stud.rollno);
+        }
         
     }
    
